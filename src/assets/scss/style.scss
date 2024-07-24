@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .img-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .img-cont {
+      width: 150px;
+      height: 150px;
+      position: relative;
+
+      span {
+        position: absolute;
+        top: 0;
+      }
+    }
+  }
+
+  .img-updater {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    [class*="btn"] {
+      &:focus {
+        outline: none;
+      }
+
+      &.btn-add {
+        background-color: #708871;
+      }
+    }
+  }
+}
