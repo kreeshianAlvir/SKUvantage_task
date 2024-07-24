@@ -14,13 +14,9 @@
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^5.16.4",
     "axios": "^1.7.2",
-    "material-ui-image": "^3.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-lazy-load-image-component": "^1.6.2",
-    "react-slick": "^0.30.2",
-    "sass": "^1.77.8",
-    "slick-carousel": "^1.8.1"
+    "sass": "^1.77.8"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
